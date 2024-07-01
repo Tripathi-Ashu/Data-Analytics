@@ -1,0 +1,44 @@
+# basic syntex
+
+print("hello word "
+      "this is my first program in "
+      "Ihope you all like it ")
+
+print(""" hello i am ashutosh 
+my naem is e unike 
+this is my first program 
+""")
+
+print("hi\nmy name is \nashutosh ")
+
+print('it\'s me ashutosh')
+"""
+#Vaiable
+"""
+a = "hi Ashu toah "
+print(a)
+
+# DataType str , int , flot , complex, list , tuple , range  dict , set , frozenset , bool , bytes , bytearray , memoryview:
+
+# input :
+name = input("enter your name ")
+print(name)
+
+# inputs:
+age = int(input("enter your age "))
+print(age)
+
+exp = eval(input("engter any expretion"))
+print(exp)
+
+# TypeCasting
+
+name = "Ashu"
+age = 43
+roll = "32"
+
+print(type(age))
+print(type(roll))
+
+a = float(roll)
+print(type(a))
