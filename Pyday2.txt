@@ -1,0 +1,66 @@
+# problem : write a program to display a persons name, age  and address in three diffrent lines.
+
+name = "ashu"
+age = 32
+address = "amethi 22728"
+
+print(name )
+print(age )
+print(address)
+
+# writ a program to swap two variable
+
+x = 12
+y = 13
+
+temp = x
+
+
+x = y
+y = temp
+
+print(x)
+print(y)
+# method 2
+
+a = 2
+b = 3
+
+a, b = b, a
+
+print(a)
+print(b)
+
+# write a program to convert floot into int
+
+x = 1.2
+
+print(type(x))
+
+x = int(x)
+print(type(x))
+print(x)
+
+# Write a program to take an user input as integer as input then convert it to float
+
+a = int(input("enter a number hear:"))
+print(a)
+print(type(a))
+a = float(a)
+print(a)
+print(type(a))
+
+
+# write a program to take details from a student  for ID - card and then print it in different lines
+print("student Identity card")
+name = input("Enter your name ")
+grade = input("enter the grades of the student ")
+age = input(" enter your age ")
+email = input("enter your email")
+print("student ID card ")
+
+print(name)
+print(grade)
+print(age)
+print(email)
+
