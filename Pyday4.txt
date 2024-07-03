@@ -1,0 +1,66 @@
+# write a program to check if a number is positive
+
+num = int(input("inter your number"))
+if num>0:
+    print("it is positive")
+
+# write a program to check whether a number is odd or even
+num = int(input("enter anumber here:"))
+if num % 2 == 0:
+    print("it is an even number")
+else:
+    print("it is an even number")
+
+# Write a program to create area calculator
+print("***AREA Calculator")
+print("""press 1 to get the area of squre  
+press 2 to get the area of rectangle 
+press 3 to get area of circle 
+press 4 to get the area of trangle """)
+
+choice = int(input("enter a number btween 1 - 4"))
+
+if choice == 1:
+    side = float(input("enter the lenth of side : "))
+    area = side**2
+    print(" the area of squre is ", area)
+elif choice ==  2:
+    length = float(input("enter the length of the rectangle:"))
+    width = float(input("enter the width of the rectangul"))
+    area = length * width
+    print("the area of rectangle is ", area)
+elif choice == 3:
+    radius = float(input("enter the radius of the circle "))
+    area = (22/7)*(radius**2)
+    print("the area of circle is ", area)
+elif choice == 4:
+    base = float(input("enter the base of ractangle:"))
+    hight = float(input("enter the hight of the trangle  "))
+    area = 0.5*base*hight
+    print("the area of ractangle ", area)
+else:
+    print("invalide input")
+
+# write a program check whteher the passed letter is a vowel or not
+letter = input("enter a letter here:")
+if letter in " aeiou" or (letter in "AEIOU"):
+    print("it is a vowle")
+else:
+    print( "it is not a vowle")
+
+# write a program to chek if a number is a single digite number , 2 disit number and so on .., up to 5 digit number
+
+number = int(input("enter a number up to 5 digit "))
+if number >= 0 and number<=9:
+    print("it is a  single digit number ")
+elif number >= 10 and number<=99
+    print("it is a dubule digit number")
+elif number >= 100 and number<=999
+    print("it is tripal digit number")
+elif number >= 1000 and number<=9999
+    print("number is four digit ")
+elif number >= 10000 and number <= 99999
+    print(("number is five digit "))
+else:
+    print("invailed in 4- 5")
+
