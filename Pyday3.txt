@@ -1,0 +1,78 @@
+# aritghmatic Operater
+# comparison Operater
+
+# Logical operater
+
+print(3 > 4 or 3 <4 )
+
+# Assignment  Operater =+ , =, -=, ;
+
+# Identity operator is , is not
+
+a = 123
+b = "123"
+
+print(a is b)
+
+# Bitewise operator , AND , OR ,XOR ,<< zero fill left , >>;
+
+print(bin(12))  # Binery number
+
+a = 10
+b = 8
+print(a & b)  # ans is 8
+print(a | b)  # ans is 10
+print(a ^ b)  # Ans is 2 (Xor 1 0 = 1)
+print(10 >> 1)  # Zero file right shift 5
+print(10 << 1)   # Zero right shift 20
+
+# MemberShip  Operatior In,  not in
+a = "hello"
+print("p" not in a)
+
+#conditional statement if , if-else , if-elif-else , Nested
+mark = 97
+
+if mark >= 90:
+    print("you will gwt a mon=bile")
+
+print("hii")
+# if-else
+
+if mark >= 90:
+    print("you are good")
+else:
+    print("no phone")
+
+print("thank you")
+
+# if-elif-else
+
+if mark >= 90:
+    print(" won phone")
+elif mark >= 80 and mark <= 90:
+    print("you will won a cycle")
+elif mark >= 50 and mark <= 80:
+    print("you will won a pen ")
+else:
+    print("you just pass out")
+
+print("you good ")
+
+#Nested if statement
+
+if mark >=90:
+    print("you will get a phone ")
+    if mark >= 95:
+        print( "you can go atrip ")
+
+else:
+    print("no phone for a month")
+
+# short hand if statement
+
+if mark >= 70 : print("you will get a new phone Ashu")
+
+# short hand if else statement :
+
+print("you wil go to trp ") if mark >=50 else print(" ashutosh")
