@@ -1,1 +1,2 @@
-# Data-Analytics  today i start  leaning Data Analytic 
+# Data-Analytics  
+Today I started Learning Basic to Advance Data Computing with Python ....
