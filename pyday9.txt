@@ -1,0 +1,35 @@
+a = "Harry Potter and the Golet of fire"
+print(a)
+
+# to find the length of string
+print(len(a))
+
+# to find the number of times a charecter in occurnig
+print(a.count("H"))
+
+# to convert each letter inyo supper case
+print(a.upper())
+
+# to convert each letter into lower  case
+print(a.lower())
+
+# to find the index of the string
+print()
+
+# to convert the first leter in capalitise
+print(a.capitalize())
+
+# to convert the string in lower case
+print(a.lower())
+
+# tofind the carecter index
+print(a.find("a"))
+
+# to write varival insted a string
+name = "ashu"
+age = 21
+b = "my name is {}  and my age is {}"
+print(b.format(name , age))
+
+# it file the given charecter and centerlize a string
+print(name.center(20 ))
