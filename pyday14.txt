@@ -1,0 +1,59 @@
+a = "OOTD.YOLO.ASAP.BRB.GTG.OTW"
+# write a program to separate the following string into coma(,) separated values.
+b = a.split(".")
+print(b)
+
+# wrote a program to sort string alphabetically in
+#a = input("enter anythin here:")
+
+b= sorted(a)
+print(b)
+
+# write a program to remove a given character from a string
+a = "hello"
+b = a.replace("e", "")
+print(b)
+
+
+# 4 . write a program to remove dot() from the following string
+z = "F.R.I.E.N.D.S"
+B = z.replace(".","")
+print(B)
+
+# write a program to check the number of occurrence of a substring in a string
+a = "she sells seashells on the sea shore"
+b = a.count("sea")
+print(b)
+
+# take an input from a user as a string then , revers it
+# a = input("enter anythink hrer:")
+print(a[::-1])
+
+# write a program to check if a string contain only digits.
+
+# a = input("enter anythink here :")
+b = (a.isdigit())
+if b == True:
+    print("it contains only digits")
+else:
+    print("it is not a digits")
+
+# write a program to check if palindrom
+# a = input("enter anythink here")
+rev = a[::-1]
+if a == rev:
+    print("it is palindrome")
+else:
+    print("it is not a palindrome")
+
+# write a program to find number of vowels in a string .
+#a = input("enter anythink here:")
+vowels = 0
+for i in a:
+    if i == "a" or "e" or "i" or "o" or "u":
+        vowels += 1
+
+print("the number of vowels in the following string are:", vowels)
+# write a program to check if every word in a string befins with a capital letter
+a = input("enter anything here:")
+print(a.istitle())
